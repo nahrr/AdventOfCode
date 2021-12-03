@@ -9,9 +9,9 @@ public class DayTwo
 {
     public DayTwo()
     {
-        string[] input = File.ReadAllLines(@"C:\Users\jkjellst\adventofcode\input2.txt");
+        string[] input = File.ReadAllLines(@"C:\Users\johan\adventofcode\mock.txt");
 
-        Console.WriteLine($"Part one {SolveFirst(input)}");
+       // Console.WriteLine($"Part one {SolveFirst(input)}");
         Console.WriteLine($"Part two {SolveSecond(input)}");
 
     }

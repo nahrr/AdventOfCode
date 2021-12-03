@@ -4,7 +4,7 @@ public class DayOne
     //static void Main(string[] args)
     public DayOne()
     {
-        string[] input = File.ReadAllLines(@"C:\Users\jkjellst\adventofcode\input1.txt");
+        string[] input = File.ReadAllLines(@"C:\Users\johan\adventofcode\mock.txt");
         int[] inputToInt = (Array.ConvertAll(input, x => int.Parse(x)));
 
         Console.WriteLine($"Part one {SolveFirst(inputToInt)}");
